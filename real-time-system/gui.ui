@@ -89,6 +89,94 @@
      <string>generalized</string>
     </property>
    </widget>
+   <widget class="QRadioButton" name="cart">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>830</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cartoonize</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="paint">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>860</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Painting-style</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>830</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>brightness</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>870</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>saturation</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="brightness">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>840</y>
+      <width>301</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="saturation">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>870</y>
+      <width>301</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
